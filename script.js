@@ -6,7 +6,7 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: " Qual a força da arte que sustenta o peso de ser?", alternativas: ["  ", "  "]
+        enunciado: " Qual a força da arte que sustenta o peso de ser?", alternativas: [" TO NÃO! ", " GELEIA "]
     },
     {
         enunciado: "  ", alternativas: ["  ", "  "]
@@ -32,8 +32,17 @@ function mostraPergunta()
 {
     perguntaAtual = perguntas[atual];
     caixaPerguntas.textContent = perguntaAtual.enunciado;
+    mostraAlternativas();
 }
 
+function mostraAlternativas() 
+{
+    for(const alternativa of perguntaAtual.alternativas) 
+    {
+        const botaoAlternativas = document.createElement("button");
+    
+    }
+}
 mostraPergunta()
 
 
