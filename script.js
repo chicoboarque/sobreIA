@@ -8,20 +8,21 @@ const perguntas = [
     {
         enunciado: " Qual a força da arte que sustenta o peso de ser?", alternativas: [" TO NÃO! ", " GELEIA "]
     },
+    
     {
-        enunciado: "  ", alternativas: ["  ", "  "]
+        enunciado: " Sou inteligente e idiota o bastante para duvidar disso?", alternativas: [" ISSO ", " BASTANTE DISSO "]
     },
 
     {
-        enunciado: "  ", alternativas: ["  ", "  "]
+        enunciado: " Por onde anda o maicom jesscson?", alternativas: [" CRIO ", " GENIA "]
     },
 
     {
-        enunciado: "  ", alternativas: ["  ", "  "]
+        enunciado: " Taxa de mortalidade da índia?", alternativas: [" PAREDE DA MORTE", " COMIDA DE RUA "]
     },
     
     {
-        enunciado: "  ", alternativas: ["  ", "  "]
+        enunciado: " Qual foi a primeira pergunta?", alternativas: [" PERGUNTA1 ", " CANIVETE "]
     }
 ]
 
